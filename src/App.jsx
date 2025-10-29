@@ -10,7 +10,7 @@ const App = () => {
     if (!query.trim()) return;
     setLoading(true);
     try {
-      const res = await fetch('https://rag-hardhat-784777154641.asia-south1.run.app/api/ask', {
+      const res = await fetch('https://blockchain-rag-api-main-784777154641.asia-south1.run.app/api/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
